@@ -11,7 +11,7 @@ const greetings = () => {
 const IndexPage = () => (
   <div>
     <h1>Hello people,</h1>
-    <p>My name is Shireesha and I am from India. I 💓 Web.If I am not infront of screen ,I love exploring natural landscape.</p>
+    <p>My name is Shireesha and I am from India. I 💓 Web. If I am not infront of screen ,I love exploring natural landscape.</p>
     <p>Click Here to know about my <Link to="/work/">Work</Link>👩‍💻</p>
     <p> I like to promote <Link to="/community/">Community</Link> Learning</p>
     <p>You can 📨 <Link to="/contact/">contact</Link></p>
