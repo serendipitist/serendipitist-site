@@ -3,7 +3,11 @@ import Link from 'gatsby-link'
 
 const SecondPage = () => (
   <div>
-   <p> I like working on Front end technologies. Currently working for digital publishing platform Startup in Bangalore.</p>
+  <article>
+     <p> I like working on Front end technologies.</p>
+     <p> Currently working for digital publishing platform Startup in Bangalore.</p>
+     <p> Listing my side project <a href="https://serendipitist.github.io/cricscore/">Demo Web component </a> </p>
+   </article>
   </div>
 )
 

@@ -1,0 +1,12 @@
+1. HTML Semantics
+2. CSS3
+3. JS -> Browser related
+4. Node JS
+5. Read about JQuery
+6. Objects, Arrays
+7. Lodash
+8. Flexbox and grid layout
+9. OOPs & FP
+10. Opensource stuff
+11. Performance
+12. Web Optimization
