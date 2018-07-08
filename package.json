@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "gatsby": "^1.9.119",
     "gatsby-cli": "^1.1.58",
     "gatsby-link": "^1.6.28",
