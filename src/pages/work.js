@@ -1,12 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 const SecondPage = () => (
   <div>
     <article>
-      <p> I like working on Front end technologies.</p>
-      <p>Actively looking out for opportunity in Front End Technologies. Available for hire</p>
-      <p> Listing my side project <a href="https://serendipitist.github.io/bulletin-board/">Demo Project </a> </p>
+      <p> I like to work on front end technologies </p>
+      <p>Currently, I work for Fintech company in Bangalore.</p>
+      <p>Mostly, my work involves writing HTML, CSS and JS along with ruby to build UI which is used by Indian investors</p>
     </article>
   </div>
 )

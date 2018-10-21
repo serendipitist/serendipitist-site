@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Serendiptist`,
-    discription: `blog`
+    title: `Serendiptist - Portfolio site`,
+    discription: `blog - Blog about travel, art , photos, and tech career`
   },
   plugins: [`gatsby-plugin-react-helmet`],
   plugins: [
@@ -14,4 +14,22 @@ module.exports = {
     },
   },
 ],
+  plugins: [
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`
+      }
+    }
+  ],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
+      },
+    },
+  ],
 }
