@@ -17,7 +17,7 @@ const IndexPage = () => (
       While , I am not infront of my screen. I like to go on hiking/trekking or take a long walk.</p>
     <p>Click Here to know about my <Link to="/work/">Work</Link>👩‍💻</p>
     <p> I like to promote <Link to="/community/">Community</Link> Learning</p>
-    <div> Contact 📨 & Scocial Presence:
+    <div> Contact 📨 & Social Presence:
       <div style={{ 'display': 'flex', justifyContent: 'space-between'
 
     }} className="social-bar">
@@ -37,7 +37,7 @@ const IndexPage = () => (
     </div>
     </div>
 
-    <h2 id="print-msg">Happy {greetings()} 😀 </h2>
+    <h2 id="print-msg">Happy {greetings()}</h2>
   </div>
 )
 
