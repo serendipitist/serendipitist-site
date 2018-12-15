@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import 'font-awesome/css/font-awesome.min.css';
 
 const greetings = () => {
   let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -37,7 +36,8 @@ const IndexPage = () => (
     </div>
     </div>
 
-    <h2 id="print-msg">Happy {greetings()}</h2>
+    {/* <h2 id="print-msg">My Short Articles</h2>
+    <Link to="/blog">Community</Link> */}
   </div>
 )
 

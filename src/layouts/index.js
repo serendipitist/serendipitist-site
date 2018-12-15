@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.css'
-
 import Typography from "typography"
 
 const typography = new Typography({
@@ -19,7 +17,7 @@ const typography = new Typography({
     "sans-serif",
   ],
   bodyFontFamily: ["Georgia", "serif"],
-})
+});
 
 const greetings = () => {
   let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

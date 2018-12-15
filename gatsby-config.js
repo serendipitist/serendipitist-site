@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Serendiptist - Portfolio site`,
-    discription: `blog - Blog about travel, art , photos, and tech career`
+    title: `Patnem Chai Shop`,
+    discription: `50 years old chai shop in South Goa`
   },
   plugins: [`gatsby-plugin-react-helmet`],
   plugins: [
