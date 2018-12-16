@@ -36,8 +36,8 @@ const IndexPage = () => (
     </div>
     </div>
 
-    {/* <h2 id="print-msg">My Short Articles</h2>
-    <Link to="/blog">Community</Link> */}
+    <h2 id="print-msg">My Short Articles</h2>
+    <Link to="/blog">Patnem Chai Shop</Link>
   </div>
 )
 
